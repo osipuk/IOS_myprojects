@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368EFA411822621200816B28 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368EFA401822621200816B28 /* CoreMedia.framework */; };
+		368EFA431822624700816B28 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368EFA421822624700816B28 /* AVFoundation.framework */; };
+		36C04EC818224ECB0059E79A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EC718224ECB0059E79A /* UIKit.framework */; };
+		36C04ECA18224ECB0059E79A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EC918224ECB0059E79A /* Foundation.framework */; };
+		36C04ECC18224ECB0059E79A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04ECB18224ECB0059E79A /* CoreGraphics.framework */; };
+		36C04ED218224ECC0059E79A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36C04ED018224ECC0059E79A /* InfoPlist.strings */; };
+		36C04ED418224ECC0059E79A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C04ED318224ECC0059E79A /* main.m */; };
+		36C04ED818224ECC0059E79A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C04ED718224ECC0059E79A /* AppDelegate.m */; };
+		36C04EDA18224ECC0059E79A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C04ED918224ECC0059E79A /* Default.png */; };
+		36C04EDC18224ECC0059E79A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C04EDB18224ECC0059E79A /* Default@2x.png */; };
+		36C04EDE18224ECC0059E79A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C04EDD18224ECC0059E79A /* Default-568h@2x.png */; };
+		36C04EE118224ECC0059E79A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C04EE018224ECC0059E79A /* ViewController.m */; };
+		36C04EE418224ECC0059E79A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36C04EE218224ECC0059E79A /* ViewController.xib */; };
+		36C04EEC182251F50059E79A /* AppotaBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36C04EEA182251F50059E79A /* AppotaBundle.bundle */; };
+		36C04EED182251F50059E79A /* AppotaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EEB182251F50059E79A /* AppotaSDK.framework */; };
+		36C04EEF182255680059E79A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EEE182255680059E79A /* QuartzCore.framework */; };
+		36C04EF1182255760059E79A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EF0182255760059E79A /* CoreVideo.framework */; };
+		36C04EF31822557C0059E79A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EF21822557C0059E79A /* StoreKit.framework */; };
+		36C04EF5182255850059E79A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EF4182255850059E79A /* MobileCoreServices.framework */; };
+		36C04EF7182255890059E79A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EF6182255890059E79A /* MessageUI.framework */; };
+		36C04EF9182255920059E79A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EF8182255920059E79A /* AudioToolbox.framework */; };
+		36C04EFB182255AB0059E79A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EFA182255AB0059E79A /* CFNetwork.framework */; };
+		36C04EFD182255FC0059E79A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EFC182255FC0059E79A /* SystemConfiguration.framework */; };
+		36C04EFF182256090059E79A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04EFE182256090059E79A /* OpenGLES.framework */; };
+		36C04F01182256110059E79A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04F00182256110059E79A /* Security.framework */; };
+		36C04F031822566A0059E79A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04F021822566A0059E79A /* libz.dylib */; };
+		36C04F051822568E0059E79A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C04F041822568E0059E79A /* libxml2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		368EFA401822621200816B28 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		368EFA421822624700816B28 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		36C04EC418224ECB0059E79A /* AppotaPaymentTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppotaPaymentTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C04EC718224ECB0059E79A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36C04EC918224ECB0059E79A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36C04ECB18224ECB0059E79A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36C04ECF18224ECC0059E79A /* AppotaPaymentTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppotaPaymentTest-Info.plist"; sourceTree = "<group>"; };
+		36C04ED118224ECC0059E79A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36C04ED318224ECC0059E79A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36C04ED518224ECC0059E79A /* AppotaPaymentTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppotaPaymentTest-Prefix.pch"; sourceTree = "<group>"; };
+		36C04ED618224ECC0059E79A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36C04ED718224ECC0059E79A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36C04ED918224ECC0059E79A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		36C04EDB18224ECC0059E79A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		36C04EDD18224ECC0059E79A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		36C04EDF18224ECC0059E79A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36C04EE018224ECC0059E79A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		36C04EE318224ECC0059E79A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		36C04EEA182251F50059E79A /* AppotaBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppotaBundle.bundle; sourceTree = "<group>"; };
+		36C04EEB182251F50059E79A /* AppotaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppotaSDK.framework; sourceTree = "<group>"; };
+		36C04EEE182255680059E79A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		36C04EF0182255760059E79A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		36C04EF21822557C0059E79A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		36C04EF4182255850059E79A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		36C04EF6182255890059E79A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		36C04EF8182255920059E79A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		36C04EFA182255AB0059E79A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		36C04EFC182255FC0059E79A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		36C04EFE182256090059E79A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		36C04F00182256110059E79A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		36C04F021822566A0059E79A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		36C04F041822568E0059E79A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36C04EC118224ECB0059E79A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C04F051822568E0059E79A /* libxml2.dylib in Frameworks */,
+				36C04F031822566A0059E79A /* libz.dylib in Frameworks */,
+				368EFA431822624700816B28 /* AVFoundation.framework in Frameworks */,
+				368EFA411822621200816B28 /* CoreMedia.framework in Frameworks */,
+				36C04F01182256110059E79A /* Security.framework in Frameworks */,
+				36C04EFF182256090059E79A /* OpenGLES.framework in Frameworks */,
+				36C04EFD182255FC0059E79A /* SystemConfiguration.framework in Frameworks */,
+				36C04EFB182255AB0059E79A /* CFNetwork.framework in Frameworks */,
+				36C04EF9182255920059E79A /* AudioToolbox.framework in Frameworks */,
+				36C04EF7182255890059E79A /* MessageUI.framework in Frameworks */,
+				36C04EF5182255850059E79A /* MobileCoreServices.framework in Frameworks */,
+				36C04EF31822557C0059E79A /* StoreKit.framework in Frameworks */,
+				36C04EF1182255760059E79A /* CoreVideo.framework in Frameworks */,
+				36C04EEF182255680059E79A /* QuartzCore.framework in Frameworks */,
+				36C04EC818224ECB0059E79A /* UIKit.framework in Frameworks */,
+				36C04ECA18224ECB0059E79A /* Foundation.framework in Frameworks */,
+				36C04ECC18224ECB0059E79A /* CoreGraphics.framework in Frameworks */,
+				36C04EED182251F50059E79A /* AppotaSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36C04EBB18224ECB0059E79A = {
+			isa = PBXGroup;
+			children = (
+				368EFA421822624700816B28 /* AVFoundation.framework */,
+				368EFA401822621200816B28 /* CoreMedia.framework */,
+				36C04F041822568E0059E79A /* libxml2.dylib */,
+				36C04F021822566A0059E79A /* libz.dylib */,
+				36C04F00182256110059E79A /* Security.framework */,
+				36C04EFE182256090059E79A /* OpenGLES.framework */,
+				36C04EFC182255FC0059E79A /* SystemConfiguration.framework */,
+				36C04EFA182255AB0059E79A /* CFNetwork.framework */,
+				36C04EF8182255920059E79A /* AudioToolbox.framework */,
+				36C04EF6182255890059E79A /* MessageUI.framework */,
+				36C04EF4182255850059E79A /* MobileCoreServices.framework */,
+				36C04EF21822557C0059E79A /* StoreKit.framework */,
+				36C04EF0182255760059E79A /* CoreVideo.framework */,
+				36C04EEE182255680059E79A /* QuartzCore.framework */,
+				36C04ECD18224ECB0059E79A /* AppotaPaymentTest */,
+				36C04EC618224ECB0059E79A /* Frameworks */,
+				36C04EC518224ECB0059E79A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36C04EC518224ECB0059E79A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36C04EC418224ECB0059E79A /* AppotaPaymentTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36C04EC618224ECB0059E79A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C04EEA182251F50059E79A /* AppotaBundle.bundle */,
+				36C04EEB182251F50059E79A /* AppotaSDK.framework */,
+				36C04EC718224ECB0059E79A /* UIKit.framework */,
+				36C04EC918224ECB0059E79A /* Foundation.framework */,
+				36C04ECB18224ECB0059E79A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36C04ECD18224ECB0059E79A /* AppotaPaymentTest */ = {
+			isa = PBXGroup;
+			children = (
+				36C04ED618224ECC0059E79A /* AppDelegate.h */,
+				36C04ED718224ECC0059E79A /* AppDelegate.m */,
+				36C04EDF18224ECC0059E79A /* ViewController.h */,
+				36C04EE018224ECC0059E79A /* ViewController.m */,
+				36C04EE218224ECC0059E79A /* ViewController.xib */,
+				36C04ECE18224ECC0059E79A /* Supporting Files */,
+			);
+			path = AppotaPaymentTest;
+			sourceTree = "<group>";
+		};
+		36C04ECE18224ECC0059E79A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36C04ECF18224ECC0059E79A /* AppotaPaymentTest-Info.plist */,
+				36C04ED018224ECC0059E79A /* InfoPlist.strings */,
+				36C04ED318224ECC0059E79A /* main.m */,
+				36C04ED518224ECC0059E79A /* AppotaPaymentTest-Prefix.pch */,
+				36C04ED918224ECC0059E79A /* Default.png */,
+				36C04EDB18224ECC0059E79A /* Default@2x.png */,
+				36C04EDD18224ECC0059E79A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36C04EC318224ECB0059E79A /* AppotaPaymentTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C04EE718224ECC0059E79A /* Build configuration list for PBXNativeTarget "AppotaPaymentTest" */;
+			buildPhases = (
+				36C04EC018224ECB0059E79A /* Sources */,
+				36C04EC118224ECB0059E79A /* Frameworks */,
+				36C04EC218224ECB0059E79A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppotaPaymentTest;
+			productName = AppotaPaymentTest;
+			productReference = 36C04EC418224ECB0059E79A /* AppotaPaymentTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36C04EBC18224ECB0059E79A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Appota;
+			};
+			buildConfigurationList = 36C04EBF18224ECB0059E79A /* Build configuration list for PBXProject "AppotaPaymentTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36C04EBB18224ECB0059E79A;
+			productRefGroup = 36C04EC518224ECB0059E79A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36C04EC318224ECB0059E79A /* AppotaPaymentTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36C04EC218224ECB0059E79A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C04ED218224ECC0059E79A /* InfoPlist.strings in Resources */,
+				36C04EDA18224ECC0059E79A /* Default.png in Resources */,
+				36C04EDC18224ECC0059E79A /* Default@2x.png in Resources */,
+				36C04EDE18224ECC0059E79A /* Default-568h@2x.png in Resources */,
+				36C04EE418224ECC0059E79A /* ViewController.xib in Resources */,
+				36C04EEC182251F50059E79A /* AppotaBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36C04EC018224ECB0059E79A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C04ED418224ECC0059E79A /* main.m in Sources */,
+				36C04ED818224ECC0059E79A /* AppDelegate.m in Sources */,
+				36C04EE118224ECC0059E79A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36C04ED018224ECC0059E79A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C04ED118224ECC0059E79A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36C04EE218224ECC0059E79A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C04EE318224ECC0059E79A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36C04EE518224ECC0059E79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36C04EE618224ECC0059E79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36C04EE818224ECC0059E79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: APPOTA INC PTE. LTD";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: APPOTA INC PTE. LTD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppotaPaymentTest/AppotaPaymentTest-Prefix.pch";
+				INFOPLIST_FILE = "AppotaPaymentTest/AppotaPaymentTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cc24e97c-17ba-4f15-b88f-0950f201c063";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36C04EE918224ECC0059E79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: APPOTA INC PTE. LTD";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: APPOTA INC PTE. LTD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppotaPaymentTest/AppotaPaymentTest-Prefix.pch";
+				INFOPLIST_FILE = "AppotaPaymentTest/AppotaPaymentTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cc24e97c-17ba-4f15-b88f-0950f201c063";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36C04EBF18224ECB0059E79A /* Build configuration list for PBXProject "AppotaPaymentTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C04EE518224ECC0059E79A /* Debug */,
+				36C04EE618224ECC0059E79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C04EE718224ECC0059E79A /* Build configuration list for PBXNativeTarget "AppotaPaymentTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C04EE818224ECC0059E79A /* Debug */,
+				36C04EE918224ECC0059E79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36C04EBC18224ECB0059E79A /* Project object */;
+}
